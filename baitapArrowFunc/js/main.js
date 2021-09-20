@@ -14,7 +14,6 @@ let loadColorList = () => {
     document.getElementById("colorContainer").innerHTML = content;
     ;
 }
-loadColorList();
 // Change colors 
 let changeColorHouse = (item)=>{
     let currentActive = getEle('.active');
